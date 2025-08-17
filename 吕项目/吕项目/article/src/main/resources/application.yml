@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名
+hadoop:
+  namespace: /test
+  rootfile: D:/article/
+  hadooppath: /article/
+
+server:
+  port: 8080
+
+app:
+  file:
+    hadoop-dir: /files/
+    upload-dir:  D:/files/
+    allowed-extensions: .jpg,.png,.pdf,.docx,.zip,.txt,.doc,.gif,.xls,.xlsx,.rar,.avi,.mp3,.mp4,.md,.log,.json,.css,.html,.js
+    max-file-size-mb: 100
+
+
+
+

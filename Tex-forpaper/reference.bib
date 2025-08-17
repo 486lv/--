@@ -1,0 +1,120 @@
+@article{mr,
+author = {Dean, Jeffrey and Ghemawat, Sanjay},
+title = {MapReduce: simplified data processing on large clusters},
+year = {2008},
+issue_date = {January 2008},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {51},
+number = {1},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/1327452.1327492},
+doi = {10.1145/1327452.1327492},
+abstract = {MapReduce is a programming model and an associated implementation for processing and generating large datasets that is amenable to a broad variety of real-world tasks. Users specify the computation in terms of a map and a reduce function, and the underlying runtime system automatically parallelizes the computation across large-scale clusters of machines, handles machine failures, and schedules inter-machine communication to make efficient use of the network and disks. Programmers find the system easy to use: more than ten thousand distinct MapReduce programs have been implemented internally at Google over the past four years, and an average of one hundred thousand MapReduce jobs are executed on Google's clusters every day, processing a total of more than twenty petabytes of data per day.},
+journal = {Commun. ACM},
+month = jan,
+pages = {107–113},
+numpages = {7}
+}
+@inproceedings{yarn,
+author = {Vavilapalli, Vinod Kumar and Murthy, Arun C. and Douglas, Chris and Agarwal, Sharad and Konar, Mahadev and Evans, Robert and Graves, Thomas and Lowe, Jason and Shah, Hitesh and Seth, Siddharth and Saha, Bikas and Curino, Carlo and O'Malley, Owen and Radia, Sanjay and Reed, Benjamin and Baldeschwieler, Eric},
+title = {Apache Hadoop YARN: yet another resource negotiator},
+year = {2013},
+isbn = {9781450324281},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2523616.2523633},
+doi = {10.1145/2523616.2523633},
+abstract = {The initial design of Apache Hadoop [1] was tightly focused on running massive, MapReduce jobs to process a web crawl. For increasingly diverse companies, Hadoop has become the data and computational agor\'{a}---the de facto place where data and computational resources are shared and accessed. This broad adoption and ubiquitous usage has stretched the initial design well beyond its intended target, exposing two key shortcomings: 1) tight coupling of a specific programming model with the resource management infrastructure, forcing developers to abuse the MapReduce programming model, and 2) centralized handling of jobs' control flow, which resulted in endless scalability concerns for the scheduler.In this paper, we summarize the design, development, and current state of deployment of the next generation of Hadoop's compute platform: YARN. The new architecture we introduced decouples the programming model from the resource management infrastructure, and delegates many scheduling functions (e.g., task fault-tolerance) to per-application components. We provide experimental evidence demonstrating the improvements we made, confirm improved efficiency by reporting the experience of running YARN on production environments (including 100\% of Yahoo! grids), and confirm the flexibility claims by discussing the porting of several programming frameworks onto YARN viz. Dryad, Giraph, Hoya, Hadoop MapReduce, REEF, Spark, Storm, Tez.},
+booktitle = {Proceedings of the 4th Annual Symposium on Cloud Computing},
+articleno = {5},
+numpages = {16},
+location = {Santa Clara, California},
+series = {SOCC '13}
+}
+
+@online{hadoop_official,
+  author = {Apache Software Foundation},
+  title  = {Hadoop官方文档},
+  year   = {2025},
+  url    = {https://hadoop.apache.org/docs/r3.3.0/hadoop-project-dist/hadoop-common/FileSystemShell.html},
+  note   = {Accessed: 2025-01-30}
+}
+@online{hadoop_sheng,
+  author = {知乎},
+  title  = {图解 Hadoop 生态系统及其组件},
+  year   = {2025},
+  url    = {http://www.coreui.cn/news/141149.html},
+  note   = {Accessed: 2025-05-21}
+}
+@online{hadoop_zh,
+  author = {CSDN},
+  title  = {Hadoop入门教程},
+  year   = {2020},
+  url    = {https://blog.csdn.net/weixin_42837961/article/details/105493561},
+  note   = {Accessed: 2020-04-18}
+}
+@online{yarns,
+  author = {Jason.Jia},
+  title  = {YARN的架构及原理 },  
+  year   = {2024},
+  url    = {https://www.cnblogs.com/jiajunplyh/p/12310786.html},
+  note   = {Accessed: 2020-02-15}
+}
+
+@online{springboot_official,
+  author = {Spring Team},
+  title = {Spring Boot官方文档},
+  year = {2025},
+  url = {https://docs.spring.io/spring-boot/docs/current/reference/html/},
+}
+
+@online{vue_official,
+  author = {vue},
+  title = {Vue.js 官方文档},
+  year = {2025},
+  url = {https://cn.vuejs.org/},
+}
+
+@online{postman_official,
+  author = {Postman},
+  title = {Postman官方文档},
+  year = {2025},
+  url = {https://learning.postman.com/},
+}
+
+@online{element,
+  author = {element},
+  title = {element官方文档},
+  year = {2025},
+  url = {https://element.eleme.cn/#/zh-CN},
+}
+
+@online{mr2_heima,
+  author = {itcast},
+  title = {Hadoop},
+  year = {2021},
+  url = {https://www.bilibili.com/video/BV1CU4y1N7Sh/?spm_id_from=333.337.search-card.all.click&vd_source=a11961ebf6a3ea45f94404bd5d0461d4},
+  note = {Accessed: 2021-12-09}
+}
+
+@book{hadoopguide,
+  title = {HADOOP权威指南},
+  author = {Tom White},
+  year = {2017},
+  publisher = {清华大学出版社},
+  address = {北京},
+  isbn = {9787302465133}
+}
+@INPROCEEDINGS{hadoop_1,
+  author={Shvachko, Konstantin and Kuang, Hairong and Radia, Sanjay and Chansler, Robert},
+  booktitle={2010 IEEE 26th Symposium on Mass Storage Systems and Technologies (MSST)}, 
+  title={The Hadoop Distributed File System}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={File systems;Bandwidth;Concurrent computing;Distributed computing;Computer architecture;File servers;Facebook;Protocols;Protection;Clustering algorithms;Hadoop;HDFS;distributed file system},
+  doi={10.1109/MSST.2010.5496972}
+  }
+
